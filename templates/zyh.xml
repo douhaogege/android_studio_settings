@@ -1,5 +1,8 @@
 <templateSet group="zyh">
-  <template name="comment" value="/**&#10; * $desc&#10; * Created by ${USER} on $!{DATE}.&#10; */" shortcut="ENTER" description="文件注释" toReformat="false" toShortenFQNames="true" useStaticImport="true">
+  <template name="comment" value="/**&#10; * $desc$&#10; * Created by $user$ on $date$.&#10; */" shortcut="ENTER" description="文件注释" toReformat="false" toShortenFQNames="true" useStaticImport="true">
+    <variable name="desc" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="user" expression="user()" defaultValue="" alwaysStopAt="false" />
+    <variable name="date" expression="date()" defaultValue="" alwaysStopAt="false" />
     <context>
       <option name="JAVA_COMMENT" value="true" />
       <option name="JAVA_DECLARATION" value="true" />
