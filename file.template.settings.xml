@@ -4,5 +4,11 @@
       <template name="File Header.java" reformat="true" live-template-enabled="true" enabled="true" />
       <template name="JavaHeader.java" reformat="true" live-template-enabled="true" />
     </includes_templates>
+    <j2ee_templates>
+      <template name="Activity.java" reformat="true" live-template-enabled="true" enabled="true" />
+      <template name="Application.java" reformat="true" live-template-enabled="true" enabled="true" />
+      <template name="Fragment.java" reformat="true" live-template-enabled="true" enabled="true" />
+      <template name="Service.java" reformat="true" live-template-enabled="true" enabled="true" />
+    </j2ee_templates>
   </component>
 </application>
