@@ -2,6 +2,7 @@
   <component name="FileTypeManager" version="17">
     <extensionMap>
       <mapping ext="webp" type="Image" />
+      <mapping ext="proto" type="PLAIN_TEXT" />
       <mapping pattern="TextCircleAttrs" type="XML" />
     </extensionMap>
   </component>
